@@ -1,0 +1,102 @@
+body {
+	background:url('./assets/img/park.png') no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+    background-size: cover;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.wrapper {
+    width: 420px;
+    background-color: white;
+    border: 1.5px solid rgba(4, 138, 255, 0.979);
+    backdrop-filter: blur(20px);
+
+    color: #373535;
+    border-radius: 10px;
+    padding: 30px 40px;
+	background-image: linear-gradient(yellow,white,rgb(0, 183, 255));
+	
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: rgba(4, 138, 255, 0.979);
+	
+}
+
+input {
+	display: block;
+	border: 1px solid rgba(4, 138, 255, 0.979);
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px ;
+}
+label {
+	color: #0f0101;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: rgb(0, 140, 255);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #010509;
+}
+.ca:hover {
+	text-decoration: underline;
+}
+.container-fluid{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #373535;
+    border-radius: 10px;
+    padding: 30px 40px;
+}

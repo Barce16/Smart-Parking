@@ -1,0 +1,81 @@
+body{
+    font-family: 'Raleway' , sans-serif;
+    
+    
+    justify-content: center ;
+    align-items: center;
+    min-height: 10vh;
+    color: #fafafa;
+    letter-spacing: 1px;
+    
+    background: url('./assets/img/park.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+
+    backdrop-filter: blur ;
+    margin: 250px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container-time{
+    width: 300px;
+    background-color: rgba(0, 0, 0, .95);
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-day{
+    color: #998100;
+    font-size: 30px;
+}
+.heading-phone{
+    font-size: 20px;
+}
+.container-form{
+    width: 300px;
+    background-color: #998100;
+    padding: 50px;
+    outline: 3px dashed #090909;
+    outline-offset: -30px;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+}
+form{
+    display: grid;
+    grid-row-gap: 10px;
+}
+form p{
+    font-weight: 600;
+}
+.form-field{
+    display: flex;
+    justify-self: space-between;
+    font-size: 12px;
+}
+input.select{
+    pad: 10px 15px;
+}
+.btn{
+    background-color: black;
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+   
+}
+btn:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.3);
+}
